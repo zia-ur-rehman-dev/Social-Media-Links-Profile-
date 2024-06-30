@@ -1,0 +1,118 @@
+/* .attribution {
+     font-size: 11px; text-align: center; 
+    }
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    } */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family:'CustomFont';
+    src: url('assets/fonts/static/Inter-SemiBold.ttf'),
+    url('assets/fonts/static/Inter-Bold.ttf')format('woff');
+}
+body {
+    background-color: hsl(0, 0%, 12%);
+    font-size: 14px;
+}
+
+.container {
+    width: 350px;
+    background-color: hsl(0, 0%, 20%);
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    /* justify-content: center; */
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+.personimg{
+    border-radius: 100px;
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 35px auto;  
+   
+}
+p{
+    color: hsl(0, 0%, 100%);
+    font-family: 'CustomFont',sans-serif;
+    margin-bottom: 2px;
+    font-size: 26px;
+}
+h6{
+color:yellowgreen;
+font-family: 'CustomFont',sans-serif;
+font-size: 14px;
+margin-bottom: 12px;
+}
+.detail_paragraph{
+    font-size: 14px;
+}
+.linking{
+    width: 80%;
+    height: 6vh;
+   background-color: rgb(94, 92, 89);
+   border-radius:5px ;
+   margin: 20px 0 10px 0;
+    
+}
+
+.frontend_montor{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(94, 92, 89);
+    border-radius:5px ;
+    margin: 10px 0 10px 0;
+}
+.LinkedIn{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(94, 92, 89);
+    border-radius:5px ;
+    margin: 0 0 10px 0;
+}
+.Twitterr{
+    width: 100%;
+    background-color: rgb(94, 92, 89);
+    height: 100%;
+    border-radius:5px ;
+    margin: 0 0 10px 0;
+}
+.instangram{
+    width: 100%;
+    background-color: rgb(94, 92, 89);
+    height: 100%;
+    border-radius:5px ;
+    margin: 0 0 10px 0;
+}
+
+
+a:hover{
+    background-color:#C4F82A;
+        color: #333333;
+        border-radius:5px ;
+}
+a{
+text-decoration: none;
+font-family: 'CustomFont',sans-serif;
+color: hsl(0, 0%, 100%);
+font-size: 14px;
+display: block;
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-family: 'CustomFont',sans-serif;
+}
+
